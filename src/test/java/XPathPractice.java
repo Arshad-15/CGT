@@ -26,7 +26,11 @@ public class XPathPractice {
        
         driver.findElement(By.xpath("//textarea[starts-with(@name,'q')]"));
 
-        driver.findElement(By.id("name"));
+//        driver.findElement(By.id("xpath"));
+//        driver.findElement(By.id("ids"));
+        driver.findElement(By.id("xpath"));
+        driver.findElement(By.id("id"));
+        driver.findElement(By.id("id"));
         driver.findElement(By.xpath("(//a)[1]"));
 
         driver.quit();
